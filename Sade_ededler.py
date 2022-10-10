@@ -1,7 +1,7 @@
 x = int(input("Eded daxil edin:"))
 def funk(x):
     d = x
-    z = 5
+    z = 0
     while x>0:
         if d%x==0:
             z=z+1
