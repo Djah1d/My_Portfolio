@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Basic website-2</title>
+    <style>
+        *{
+            padding: 0;
+            margin:0;
+        }
+        body{
+            background-image: url(stars.jpg);
+            background-repeat: no-repeat;
+            height:649px;
+            background-size: 100% 100%;
+        }
+        .navbar{
+            background-color: rgba(0, 0, 0,0.7);
+            position:absolute;
+            left: 0;
+            top: 0;
+            width: 90px;
+            height: 649px;
+        }
+        .navbar ul{
+            position: absolute;
+            bottom: 280px;
+        }
+        .navbar ul li {
+            padding-top: 30px;
+            padding-left: 5px;
+        }
+        .navbar ul li a{
+            padding: 0;
+            font-family: sans-serif;
+            text-decoration: none;
+            color: white;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 2px;
+            padding-right: 2px;
+            font-size: 15px;
+        }
+        .navbar ul li a:hover{
+            text-decoration: underline;
+            color:lightblue;
+        }
+        .container .navbar .logo{
+            display: inline-block;
+            position: absolute;
+            left: 15px;
+            top: 20px;
+            padding: 0;
+        }
+        .logo a {
+            font-size: 45px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-decoration: none;
+            color: beige;
+            padding: 0;
+        }
+        .container h1{
+            position: absolute;
+            top: 200px;
+            left: 525px;
+            font-size: 40px;
+            color: white;
+        }
+        .container p{
+            position: absolute;
+            left: 525px;
+            top: 260px;
+            width: 360px;
+            color: white;
+        }
+        .container>ul{
+            position: absolute;
+            left:540px;
+            top: 340px;
+        }
+        .container>ul li{
+            float: left;
+            padding-left: 45px;
+        }
+        .container>ul li a{
+            text-decoration: none;
+            color:white;
+            font-size: 11px;
+            background-color: rgba(0, 0, 0, 0.45);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .container>ul li a:hover{
+            color: black;
+            background-color: white;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul type="none">
+            <li><a href="#">JOIN FREE</a></li>
+            <li><a href="#">EXPLORE MORE</a></li>
+        </ul>
+        <h1>Let's Start The Magic</h1>
+        <p>DD helps people to learn new things without spending too much money on necesarry things</p>
+        <div class="navbar">
+            <div class="logo">
+               <a href="#">DD</a> 
+            </div>
+            <ul type="none">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PRICING</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+            
+        </div>
+    </div>
+</body>
+</html>
